@@ -1,0 +1,18 @@
+{
+    "title": {
+        "homePage": "Home",
+        "contactMe": "Kontakt",
+        "myWorks": "Meine Projekte"
+    },
+    "mainTitle":"https://fontmeme.com/permalink/201206/c9760fb55e747baa878fefc1aaeac8d9.png",
+    "h1":{
+        "webTitle":"Ich bin Jessica De Rosa"
+    },
+    "menu":{
+        "home": "Home",
+        "mW": "Meine Projekte",
+        "cM": "Kontakt"
+    },
+    "skills": "Fähigkeiten",
+    "studies":"Bildung"
+}

@@ -1,0 +1,9 @@
+.w3-black{
+    background-image: url('/img/back1.jpg')!important;
+    background-attachment: fixed;
+    background-size: cover;
+    color:black!important;
+}
+.w3-sidebar {
+    background-color: rgb(99, 99, 228)!important;
+  }

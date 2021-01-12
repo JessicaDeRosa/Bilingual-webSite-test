@@ -1,0 +1,31 @@
+{{#if msg}}
+<section class="nes-container">
+  <section class="message-list">
+    <section class="message -left">
+      <i class="nes-bcrikko"></i>
+      <!-- Balloon -->
+      <div class="nes-balloon from-left">
+        <p>{{msg}}
+  <i class="nes-icon is-medium like"></i></p>
+      </div>
+    </section>
+   {{/if}}
+<!--
+{{#if msg}}
+<div class="alert alert-success" role="alert">
+  {{msg}}
+</div>
+{{/if}} -->
+    <form action="/adminLogin" method="POST">
+        <p><input class="w3-input w3-padding-16" type="email" placeholder="email" required name="email"></p>
+        <p><input class="w3-input w3-padding-16" type="password" placeholder="password" required name="password"></p> 
+            <button type="submit">
+                <i class="fa fa-paper-plane"></i> log in
+            </button>
+            <button>
+                <a href="#">
+                <i class="fa fa-paper-plane"></i> log in with facebook
+                </a>
+            </button>
+        </p>
+    </form>

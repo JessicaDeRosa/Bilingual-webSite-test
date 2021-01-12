@@ -1,0 +1,62 @@
+{{#if msg}}
+<section class="nes-container">
+  <section class="message-list">
+    <section class="message -left">
+      <i class="nes-bcrikko"></i>
+      <!-- Balloon -->
+      <div class="nes-balloon from-left">
+        <p>{{msg}}</p>
+        
+  <i class="nes-icon is-medium like"></i>
+      </div>
+    </section>
+{{/if}}
+
+<div class="nes-container is-rounded is-dark">
+  <div class="lists">
+  <ul class="nes-list is-disc">
+    <li>My email is : {{user.email}}</li>
+    <li>Thou hast had a good night's sleep, I hope.</li>
+    <li>Thou hast had a good afternoon</li>
+    <li>Good night.</li>
+  </ul>
+</div>
+</div>
+<!--
+<div class="card" style="width: 18rem;margin-left:100px;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">My mail : {{user.email}}</h5>
+    <ul class="list-group">
+  <li class="list-group-item">Cras justo odio</li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Morbi leo risus</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+ </ul>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Edit your info
+    </button>
+  </div>
+</div>
+-->
+<!--edit-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
